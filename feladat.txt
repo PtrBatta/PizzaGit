@@ -1,0 +1,39 @@
+Olyan weboldal létrehozása, amely rendeléseket jelenít meg egy javascript objektumból.
+
+Mappa:
+Asztalon létrehozott project01-rendelés mappa
+
+Fájlok:
+-index.html
+-style.css
+-app.js
+
+Feladat:
+6db rendelés felvétele javascriptben és ezen rendelések megjelenítése a HTML oldalon.
+Minden rendelés egy divben legyen eltárolva és kapjon egy "order" classt, melyet css-el meg tudtok formázni.
+Elrendezés:
+Egy sorban 3 rendelés jelenjen meg
+
+A feladat megoldásához használjátok a gitet is. Minden fontosabb fájl elkészülte után egy-egy commitban rögzítsétek az adott verziót.
+A feladat végeztével mindenki töltse fel (push) a megoldást a saját github fiókjába
+
+Rendelések adatai:
+-id
+-pizza
+-extra
+-ital
+-ar
++:-kep
+
+Minta:
+    const orders = [
+
+        {
+            id: 1,
+            pizza: "Hawaii",
+            extra: "Kukrica",
+            ital: "Pepsi zero",
+            ar: 1500,
+            kep: "https://images.pexels.com/photos/6937416/pexels-photo-6937416.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+        }
+    ]
